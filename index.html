@@ -1,0 +1,125 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#0b0d10">
+  <meta name="description" content="Portfolio of a software developer focused on backend systems, APIs, and thoughtful product engineering.">
+  <title>Your Name — Software Developer</title>
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <div class="site-shell">
+    <header class="topbar">
+      <a class="brand" href="#home" aria-label="Home"><span class="brand-mark">Y<span>.</span></span><span class="brand-label">PORTFOLIO / 2026</span></a>
+      <nav aria-label="Main navigation">
+        <a href="#work">Work</a><a href="#about">About</a><a href="#stack">Stack</a>
+      </nav>
+      <a class="top-cta" href="#contact">Let's talk <span aria-hidden="true">↗</span></a>
+    </header>
+
+    <main>
+      <section class="hero" id="home">
+        <div class="hero-copy">
+          <div class="eyebrow"><span class="status-dot"></span> AVAILABLE FOR OPPORTUNITIES <span class="eyebrow-location">· BRAZIL / REMOTE</span></div>
+          <h1>Building software<br>that <span class="serif-accent">moves things</span><span class="period">.</span></h1>
+          <p class="hero-intro">I'm a software developer focused on building reliable backend systems, useful products, and clean interfaces between complex ideas and real people.</p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="#work">Explore my work <span>↓</span></a>
+            <a class="button button-quiet" href="https://github.com/JaaJPlayz" target="_blank" rel="noreferrer">GitHub profile <span>↗</span></a>
+          </div>
+          <div class="hero-meta"><span>01 — BACKEND & APIs</span><span>02 — PRODUCT ENGINEERING</span><span>03 — OPEN SOURCE</span></div>
+        </div>
+        <div class="hero-art" aria-label="Abstract technical illustration">
+          <div class="art-grid"></div>
+          <div class="orbit orbit-one"></div><div class="orbit orbit-two"></div>
+          <div class="core"><span class="core-bracket">{ }</span><span class="core-label">BUILD<br>WITH INTENT</span></div>
+          <span class="art-tag tag-top">SYSTEMS / 001</span><span class="art-tag tag-bottom">FIG. 01 — IN PROGRESS</span>
+          <span class="cross cross-a">+</span><span class="cross cross-b">+</span>
+        </div>
+        <div class="hero-bottom"><span>SCROLL TO DISCOVER</span><span class="scroll-line"></span><span>DESIGNING · ENGINEERING · ITERATING</span></div>
+      </section>
+
+      <section class="work section" id="work">
+        <div class="section-heading">
+          <div><span class="section-index">01 / SELECTED WORK</span><h2>Projects with<br><span class="serif-accent">a purpose.</span></h2></div>
+          <p>A selection of work that reflects how I think about software: start with the problem, build a solid foundation, and keep the experience clear.</p>
+        </div>
+        <article class="project-card featured">
+          <div class="project-visual rsem-visual">
+            <div class="visual-top"><span>CASE STUDY / 001</span><span>PRODUCT · FULL STACK</span></div>
+            <div class="network-demo">
+              <div class="network-node node-main">r<span>.</span></div>
+              <div class="network-node node-a">people</div><div class="network-node node-b">work</div><div class="network-node node-c">ideas</div><div class="network-node node-d">community</div>
+              <i class="network-line line-a"></i><i class="network-line line-b"></i><i class="network-line line-c"></i><i class="network-line line-d"></i>
+            </div>
+            <span class="visual-caption">CONNECTING PEOPLE & OPPORTUNITY</span>
+          </div>
+          <div class="project-info">
+            <div class="project-kicker"><span>01</span><span>IN DEVELOPMENT</span></div>
+            <h3>Rede Social RSEM</h3>
+            <p>A social networking product concept bringing profiles, job opportunities, companies, communities, posts, and messaging into one cohesive experience.</p>
+            <div class="tag-list"><span>Next.js</span><span>React</span><span>TypeScript</span><span>FastAPI</span><span>PostgreSQL</span><span>Redis</span></div>
+            <a class="text-link" href="https://github.com/JaaJPlayz/Rede_social_RSEM" target="_blank" rel="noreferrer">Explore repository <span>↗</span></a>
+            <p class="project-note">Project status and implementation details are evolving. The repository is the source of truth.</p>
+          </div>
+        </article>
+        <div class="project-grid">
+          <article class="project-card compact">
+            <div class="mini-visual api-visual"><span class="mini-label">REQUEST → RESPONSE</span><div class="api-stack"><div>GET <b>/api/v1</b></div><div>200 <b>OK</b></div><div class="api-pulse"></div></div><span class="mini-code">{"status": "healthy"}</span></div>
+            <div class="compact-info"><div class="project-kicker"><span>02</span><span>BACKEND ENGINEERING</span></div><h3>APIs & Services</h3><p>Practical backend work centered on clear contracts, data modeling, observability, and maintainable service boundaries.</p><div class="tag-list"><span>Python</span><span>FastAPI</span><span>SQL</span></div><span class="coming-soon">MORE DETAILS COMING SOON</span></div>
+          </article>
+          <article class="project-card compact">
+            <div class="mini-visual dev-visual"><span class="mini-label">DAILY PRACTICE</span><div class="terminal-window"><div class="terminal-dots"><i></i><i></i><i></i></div><p><span>$</span> git status</p><p class="terminal-muted">working tree clean</p><p><span>$</span> ship --carefully</p><p class="terminal-success">✓ ready to iterate</p></div></div>
+            <div class="compact-info"><div class="project-kicker"><span>03</span><span>ENGINEERING PRACTICE</span></div><h3>Tools & Experiments</h3><p>Small projects, developer tooling, and experiments built to learn deeply and make everyday workflows better.</p><div class="tag-list"><span>Linux</span><span>Git</span><span>Automation</span></div><a class="text-link" href="https://github.com/JaaJPlayz" target="_blank" rel="noreferrer">Browse GitHub <span>↗</span></a></div>
+          </article>
+        </div>
+        <p class="section-footnote"><span>NOTE / 001</span> Only verified projects and public demos should be presented as shipped work. Replace these cards as your portfolio grows.</p>
+      </section>
+
+      <section class="about section" id="about">
+        <div class="section-heading">
+          <div><span class="section-index">02 / A LITTLE ABOUT ME</span><h2>Curious by nature.<br><span class="serif-accent">Precise by design.</span></h2></div>
+          <div class="about-copy"><p>I enjoy working where product thinking meets engineering: understanding what needs to be solved, choosing the right level of complexity, and building software that can grow without becoming hard to change.</p><p>I'm based in Brazil and interested in collaborating with distributed teams on meaningful products and robust systems.</p></div>
+        </div>
+        <div class="principles">
+          <div class="principle"><span class="principle-number">01</span><h3>Think in systems</h3><p>Good architecture makes the next change easier, not just the first release possible.</p></div>
+          <div class="principle"><span class="principle-number">02</span><h3>Stay pragmatic</h3><p>Choose tools and abstractions that solve the real problem at the right scale.</p></div>
+          <div class="principle"><span class="principle-number">03</span><h3>Keep learning</h3><p>Read, experiment, review, and improve. The craft is never finished.</p></div>
+        </div>
+      </section>
+
+      <section class="stack section" id="stack">
+        <div class="section-heading">
+          <div><span class="section-index">03 / TOOLKIT</span><h2>The tools are<br><span class="serif-accent">part of the craft.</span></h2></div>
+          <p>A working toolkit, chosen to support maintainability, delivery, and a good developer experience.</p>
+        </div>
+        <div class="stack-layout">
+          <div class="stack-group"><span class="stack-label">BACKEND</span><div class="stack-items"><span>Python</span><span>FastAPI</span><span>SQLAlchemy</span><span>REST APIs</span><span>PostgreSQL</span><span>Redis</span></div></div>
+          <div class="stack-group"><span class="stack-label">FRONTEND</span><div class="stack-items"><span>TypeScript</span><span>React</span><span>Next.js</span><span>Tailwind CSS</span></div></div>
+          <div class="stack-group"><span class="stack-label">WORKFLOW & INFRA</span><div class="stack-items"><span>Git / GitHub</span><span>Docker</span><span>GitHub Actions</span><span>Linux</span><span>Cloudflare R2</span></div></div>
+        </div>
+        <p class="stack-disclaimer">Technologies shown reflect tools associated with current work and interests; project-specific usage should be verified before publishing a final résumé.</p>
+      </section>
+
+      <section class="contact section" id="contact">
+        <div class="contact-panel">
+          <div class="contact-orbit"></div>
+          <span class="section-index">04 / NEXT STEP</span>
+          <h2>Have a good problem<br>to <span class="serif-accent">solve?</span></h2>
+          <p>I'm interested in thoughtful teams, challenging engineering problems, and opportunities to build useful things.</p>
+          <div class="contact-actions"><a class="button button-primary" href="https://github.com/JaaJPlayz" target="_blank" rel="noreferrer">Connect on GitHub <span>↗</span></a><a class="button button-outline" href="mailto:YOUR_EMAIL@example.com">Send an email <span>↗</span></a></div>
+          <span class="contact-stamp">OPEN TO REMOTE<br>COLLABORATION</span>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer"><a class="brand" href="#home"><span class="brand-mark">Y<span>.</span></span></a><span>DESIGNED & BUILT WITH INTENTION</span><span>© <span id="year">2026</span> YOUR NAME</span><a href="#home" class="back-top">BACK TO TOP ↑</a></footer>
+  </div>
+</body>
+</html>
