@@ -1,33 +1,19 @@
-# Developer Portfolio
+# Hiago Augusto — Portfolio
 
-A responsive, dark editorial-style developer portfolio built with plain HTML, CSS, and JavaScript. It is designed to publish directly on GitHub Pages—no build step, framework, or package manager required.
+A responsive, dark editorial-style portfolio for Hiago Augusto, a full-stack web and RPA developer based in Brazil. Built with plain HTML, CSS, and JavaScript; no build step or package manager is required.
 
-## Before publishing
+## Publish on GitHub Pages
 
-Search the project for these placeholders and update them:
-
-- `Your Name` / `YOUR NAME` — your preferred public name
-- `YOUR_EMAIL@example.com` — your contact email
-- `Y.` — initials or a personal mark
-- The biography and project descriptions — verify that every claim accurately reflects your experience
-- The GitHub links — replace if your public username differs
-
-The RSEM project is presented as in development, not as a completed production product. Update the stack and status as the repository evolves.
-
-## Deploy on GitHub Pages
-
-1. Create a public repository named `portfolio` (or another name you prefer) on GitHub.
-2. Upload `index.html`, `styles.css`, `script.js`, `.nojekyll`, `README.md`, and the `assets/` directory to the repository root.
-3. Open **Settings → Pages**.
-4. Under **Build and deployment**, select **Deploy from a branch**.
-5. Choose branch `main` and folder `/(root)`, then save.
-6. Wait for the Pages deployment to finish. The site will be available at `https://YOUR_USERNAME.github.io/portfolio/`.
-
-For a user site at `https://YOUR_USERNAME.github.io/`, the repository must be named exactly `YOUR_USERNAME.github.io`.
+1. Open the `JaaJPlayz/portfolio` repository on GitHub.
+2. Upload the **contents** of this ZIP to the repository root (not the enclosing folder). Ensure `index.html`, `styles.css`, `script.js`, `.nojekyll`, `README.md`, and `assets/` are at the top level.
+3. Commit the changes to `main`, or create a branch and open a pull request.
+4. In the repository, open **Settings → Pages**.
+5. Under **Build and deployment**, select **Deploy from a branch**, choose `main` and `/(root)`, then save.
+6. Once deployment completes, the portfolio should be available at https://jaajplayz.github.io/portfolio/.
 
 ## Local preview
 
-Open `index.html` directly in a browser, or run a simple local server:
+Open `index.html` in a browser, or run:
 
 ```bash
 python -m http.server 8000
@@ -35,21 +21,22 @@ python -m http.server 8000
 
 Then visit `http://localhost:8000`.
 
-## Structure
+## Content notes
+
+- The RSEM project is explicitly marked as in development; the repository is the source of truth for its current status.
+- The skills section lists technologies associated with Hiago's broader experience and interests, not necessarily every project's stack.
+- Contact links point to GitHub and LinkedIn. No placeholder email address is included.
+- The site uses Google Fonts with fallback fonts and works without a JavaScript build pipeline.
+
+## Files
 
 ```text
 .
-├── assets/
-│   └── favicon.svg
 ├── .nojekyll
+├── README.md
 ├── index.html
 ├── script.js
 ├── styles.css
-└── README.md
+└── assets/
+    └── favicon.svg
 ```
-
-## Notes
-
-- Uses Google Fonts for Manrope, DM Mono, and Instrument Serif. System fallbacks are included.
-- No server-side code, API keys, secrets, or build dependencies.
-- This is a static portfolio; contact uses a `mailto:` link.
