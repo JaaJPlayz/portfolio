@@ -23,7 +23,7 @@ Then visit `http://localhost:8000`.
 
 ## Content notes
 
-- The RSEM project is explicitly marked as in development; the repository is the source of truth for its current status.
+- The selected-work section links to three public repositories: Trybe Futebol Clube, Recipes App, and Car Image Scraper.
 - The skills section lists technologies associated with Hiago's broader experience and interests, not necessarily every project's stack.
 - Contact links point to GitHub and LinkedIn. No placeholder email address is included.
 - The site uses Google Fonts with fallback fonts and works without a JavaScript build pipeline.
